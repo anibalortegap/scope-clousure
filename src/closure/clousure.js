@@ -60,3 +60,7 @@ let myMoneyBox = moneyBox();
 myMoneyBox(10); //10
 myMoneyBox(5); //15
 myMoneyBox(4); //19
+
+const helloWorld = () => { globalVar = "I'm global"; } 
+helloWorld();
+console.log(globalVar);
